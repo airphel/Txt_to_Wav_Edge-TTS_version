@@ -42,38 +42,7 @@ You must first check the available voices with the `--list-voices` option:
 
 `edge-tts --list-voices`
 
-Name: Microsoft Server Speech Text to Speech Voice (af-ZA, AdriNeural)
-
-ShortName: af-ZA-AdriNeural
-
-Gender: Female
-
-Locale: af-ZA
-
-Name: Microsoft Server Speech Text to Speech Voice (am-ET, MekdesNeural)
-
-ShortName: am-ET-MekdesNeural
-
-Gender: Female
-
-Locale: am-ET
-
-Name: Microsoft Server Speech Text to Speech Voice (ar-EG, SalmaNeural)
-
-ShortName: ar-EG-SalmaNeural
-
-Gender: Female
-
-Locale: ar-EG
-
-Name: Microsoft Server Speech Text to Speech Voice (ar-SA, ZariyahNeural)
-
-ShortName: ar-SA-ZariyahNeural
-
-Gender: Female
-
-Locale: ar-SA
-...
+Example:
 
 `edge-tts --voice fr-CA-SylvieNeural --text "serveur TG 208" --write-media server_TG_208_in_French.mp3`
 
