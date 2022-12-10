@@ -5,7 +5,7 @@ msg-wav.sh
 
 Script made from that of rany.
 
-Information message generator for HBLink server, FreeDMR, ... This program automatically generates a sound file in Wav format from a text entry in a .txt file.
+Information message generator for HBLink server, FreeDMR, ... This program automatically generates a sound file in Wav format from a text entry in msg-wav.sh file.
 
 The program uses speech synthesis from Microsoft Edge's online text-to-speech service.
 Necessary installation prerequisites:
@@ -92,7 +92,7 @@ Note: Punctuation can change the intonation of the voice.
 
 ### How the Python script works:
 
-The msg-wav.py script tranforms a text file into its mp3 `output.mp3` with the edge-tts and mpg321 modules then into wav with the ffmpeg module.
+The msg-wav.py script created file into its mp3 `output.mp3` with the edge-tts and mpg321 modules then into wav with the ffmpeg module.
 The output file will be called `message.wav`
 
 The command to use is:
