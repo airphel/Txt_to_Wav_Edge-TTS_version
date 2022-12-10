@@ -41,24 +41,37 @@ If you want to change the language of the speech or more generally, the voice.
 You must first check the available voices with the `--list-voices` option:
 
 `edge-tts --list-voices`
+
 Name: Microsoft Server Speech Text to Speech Voice (af-ZA, AdriNeural)
+
 ShortName: af-ZA-AdriNeural
+
 Gender: Female
+
 Locale: af-ZA
 
 Name: Microsoft Server Speech Text to Speech Voice (am-ET, MekdesNeural)
+
 ShortName: am-ET-MekdesNeural
+
 Gender: Female
+
 Locale: am-ET
 
 Name: Microsoft Server Speech Text to Speech Voice (ar-EG, SalmaNeural)
+
 ShortName: ar-EG-SalmaNeural
+
 Gender: Female
+
 Locale: ar-EG
 
 Name: Microsoft Server Speech Text to Speech Voice (ar-SA, ZariyahNeural)
+
 ShortName: ar-SA-ZariyahNeural
+
 Gender: Female
+
 Locale: ar-SA
 ...
 
@@ -86,8 +99,7 @@ In addition, it is required to use `--pitch=-10Hz` instead of `--pitch -10Hz` ot
 
 1 - In the msg-wav.sh file, choose the conversion language and define the content to convert.
 
-3 - The text will then automatically transform into voice and Wav format.
-Note: Punctuation can change the intonation of the voice.
+3 - The text will then automatically transform into voice and Wav format. Note: Punctuation can change the intonation of the voice.
 
 4 - The program produces the sound file, with the correct Wav 8k format.
 
@@ -101,6 +113,7 @@ The command to use is:
 `Python3 msg-wav.py`
 
 If you turn it into an executable the ./ command will replace python3.
+
 (chmod +x msg-wav.py)
 
 
