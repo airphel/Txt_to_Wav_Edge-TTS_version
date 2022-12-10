@@ -69,7 +69,9 @@ Locale: ar-SA
 It is possible to make minor changes to the generated speech.
 
 `edge-tts --pitch=-10Hz --text "Hello, world!" --write-media hello_with_pitch_down.mp3`
+
 `edge-tts --rate=0.5 --text "Hello, world!" --write-media hello_with_pitch_down.mp3`
+
 `edge-tts --volume=50 --text "Hello, world!" --write-media hello_with_pitch_down.mp3`
 
 Keep in mind that the `--pitch`, `--rate`, `--volume`, etc. options are applied to the entire SSML document.
