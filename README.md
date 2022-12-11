@@ -44,6 +44,8 @@ You must first check the available voices with the `--list-voices` option:
 
 `edge-tts --list-voices`
 
+https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support?tabs=stt-tts#custom-neural-voice
+
 Example:
 
 `edge-tts --voice fr-CA-SylvieNeural --text "serveur TG 208" --write-media server_TG_208_in_French.mp3`
