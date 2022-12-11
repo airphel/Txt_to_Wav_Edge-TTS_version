@@ -44,7 +44,7 @@ You must first check the available voices with the `--list-voices` option:
 
 `edge-tts --list-voices`
 
-https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support?tabs=stt-tts#custom-neural-voice
+https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support?tabs=stt-tts#supported-languages
 
 Example:
 
